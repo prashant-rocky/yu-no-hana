@@ -102,7 +102,6 @@ h3 {
 
 .slide-content {
     margin-top: 200px;
-    margin-left: 100px;
     animation: fadeInUp 2s ease forwards;
     opacity: 0;
     transform: translateY(40px);
