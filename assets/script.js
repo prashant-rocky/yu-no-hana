@@ -34,10 +34,6 @@ var swiper = new Swiper(".mySwiper", {
     disableOnInteraction: false,
   },
   speed: 1000, // smooth slide speed
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
   effect: "fade", // fade effect
   fadeEffect: {
     crossFade: true,
