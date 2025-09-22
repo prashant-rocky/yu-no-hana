@@ -27,13 +27,17 @@ window.addEventListener('load', function () {
 // swiper
 // ✅ JavaScript
 var swiper = new Swiper(".mySwiper", {
-  direction: "vertical",
+  direction: "horizontal",
   loop: true,
   autoplay: {
     delay: 3000, // 3 seconds
     disableOnInteraction: false,
   },
   speed: 1000, // smooth slide speed
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
   effect: "fade", // fade effect
   fadeEffect: {
     crossFade: true,
